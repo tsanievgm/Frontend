@@ -21,29 +21,19 @@
       <nav class="header-nav">
         <ul class="header-nav-list flex">
           <li class="header-nav-item">
-            <a class="header-nav-link" href="#booking">
-              Booking
-            </a>
+            <a class="header-nav-link" href="#booking"> Booking </a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="#facilities">
-              Facilities
-            </a>
+            <a class="header-nav-link" href="#facilities"> Facilities </a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="#aboutus">
-              About us
-            </a>
+            <a class="header-nav-link" href="#aboutus"> About us </a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="#location">
-              Location
-            </a>
+            <a class="header-nav-link" href="#location"> Location </a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="#contact">
-              Contact
-            </a>
+            <a class="header-nav-link" href="#contact"> Contact </a>
           </li>
         </ul>
       </nav>
@@ -59,7 +49,6 @@
   <!-- main -->
 
   <main class="main">
-
     <!-- booking -->
     <section class="booking" id="booking">
       <div class="container booking-container">
@@ -70,26 +59,45 @@
             </h1>
 
             <p class="booking-descr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
             </p>
           </div>
 
-          <div class="booking-up-form">
-            <form class="booking-form" action="#">
-              <fieldset class="booking-form-fieldset">
-                <input type="date">
-                <input type="number">
-                <input type="search">
-              </fieldset>
-            </form>
-          </div>
+          <form class="booking-form" action="#">
+            <fieldset class="booking-form-fieldset-top flex">
+              <label class="booking-label booking-label-date flex">
+                <span class="booking-form-img booking-form-img-date"></span>
+
+                <input class="booking-form-input booking-date" type="text" name="date" placeholder="Jun 10 - 14"
+                  onfocus="(this.type='date')" onblur="(this.type='text')">
+              </label>
+
+              <label class="booking-label booking-label-number flex">
+                <span class="booking-form-img booking-form-img-number"></span>
+
+                <input class="booking-form-input booking-number" type="number" name="number" placeholder="2 Guests">
+              </label>
+            </fieldset>
+
+            <fieldset class="booking-form-fieldset-down flex">
+              <label class="booking-label booking-label-search flex">
+                <span class="booking-form-img booking-form-img-search"></span>
+
+                <input class="booking-form-input booking-search" type="search" name="search"
+                  placeholder="United States">
+              </label>
+
+              <button class="booking-search-button">
+                <img class="booking-search-button-img" src="../img/02_booking/02_search.svg" alt="Search">
+              </button>
+            </fieldset>
+          </form>
         </div>
 
         <div class="booking-container-down flex">
           <div class="booking-down-left flex">
-            <p class="booking-down-left-descr">
-              Wagstaffe NSW, Australia
-            </p>
+            <p class="booking-down-left-descr">Wagstaffe NSW, Australia</p>
           </div>
 
           <div class="booking-down-right flex">
@@ -104,67 +112,59 @@
     <!-- Facilities -->
     <section class="facilities" id="facilities">
       <div class="container">
-        <h2 class="facilities-title title">
-          Facilities &amp; Service
-        </h2>
+        <h2 class="facilities-title title">Facilities &amp; Service</h2>
 
         <div class="facilities-descr-block flex">
           <p class="facilities-descr">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
           </p>
 
-          <a class="facilities-link" href="#">
-            View All
-          </a>
+          <a class="facilities-link" href="#"> View All </a>
         </div>
 
         <ul class="facilities-list flex">
           <li class="facilities-item flex">
             <img class="facilities-img" src="../img/03_facilities/03_private-workspace.svg" alt="facilities-icon-1">
 
-            <h3 class="facilities-item-title">
-              Private Workspace
-            </h3>
+            <h3 class="facilities-item-title">Private Workspace</h3>
 
             <p class="facilities-item-descr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has
             </p>
           </li>
 
           <li class="facilities-item flex">
             <img class="facilities-img" src="../img/03_facilities/03_parking-area.svg" alt="facilities-icon-2">
 
-            <h3 class="facilities-item-title">
-              Parking Area
-            </h3>
+            <h3 class="facilities-item-title">Parking Area</h3>
 
             <p class="facilities-item-descr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has
             </p>
           </li>
 
           <li class="facilities-item flex">
             <img class="facilities-img" src="../img/03_facilities/03_free-wifi.svg" alt="facilities-icon-3">
 
-            <h3 class="facilities-item-title">
-              Free Wifi
-            </h3>
+            <h3 class="facilities-item-title">Free Wifi</h3>
 
             <p class="facilities-item-descr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has
             </p>
           </li>
 
           <li class="facilities-item flex">
             <img class="facilities-img" src="../img/03_facilities/03_breakfast.svg" alt="facilities-icon-4">
 
-            <h3 class="facilities-item-title">
-              Breakfast
-            </h3>
+            <h3 class="facilities-item-title">Breakfast</h3>
 
             <p class="facilities-item-descr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has
             </p>
           </li>
         </ul>
@@ -182,61 +182,45 @@
           </h2>
 
           <p class="aboutus-descr">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book.
           </p>
 
           <ul class="aboutus-list flex">
             <li class="aboutus-item flex">
-              <h3 class="aboutus-item-title">
-                120K+
-              </h3>
+              <h3 class="aboutus-item-title">120K+</h3>
 
-              <p class="aboutus-item-descr">
-                Website User
-              </p>
+              <p class="aboutus-item-descr">Website User</p>
             </li>
 
             <li class="aboutus-item flex">
-              <h3 class="aboutus-item-title">
-                110K+
-              </h3>
+              <h3 class="aboutus-item-title">110K+</h3>
 
-              <p class="aboutus-item-descr">
-                Happy Clients
-              </p>
+              <p class="aboutus-item-descr">Happy Clients</p>
             </li>
 
             <li class="aboutus-item flex">
-              <h3 class="aboutus-item-title">
-                20K+
-              </h3>
+              <h3 class="aboutus-item-title">20K+</h3>
 
-              <p class="aboutus-item-descr">
-                Active Hotels
-              </p>
+              <p class="aboutus-item-descr">Active Hotels</p>
             </li>
 
             <li class="aboutus-item flex">
-              <h3 class="aboutus-item-title">
-                8Y+
-              </h3>
-              <p class="aboutus-item-descr">
-                Company Year
-              </p>
+              <h3 class="aboutus-item-title">8Y+</h3>
+              <p class="aboutus-item-descr">Company Year</p>
             </li>
           </ul>
 
-          <button class="aboutus-buton">
-            Explore More
-          </button>
+          <button class="aboutus-buton">Explore More</button>
         </div>
       </div>
     </section>
 
     <!-- Other company or brands -->
     <section class="brands" id="brands">
+      <h2 class="brands-title">Logo's brands</h2>
       <div class="brands-container">
         <ul class="brands-list flex">
           <li class="brands-item">
@@ -270,13 +254,12 @@
         <div class="testimonials-right flex">
           <img class="testimonials-avatar" src="../img/06_testimonial/06_img-ava.jpg" alt="Avatar">
 
-          <h2 class="testimonials-title title">
-            Nazmul Nabeel
-          </h2>
+          <h2 class="testimonials-title title">Nazmul Nabeel</h2>
 
           <p class="testimonials-descr">
-            “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the”
+            “Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the”
           </p>
 
           <img class="testimonials-scrolls" src="../img/06_testimonial/06_scrolls.svg" alt="scroll">
@@ -287,50 +270,37 @@
     <!-- Location -->
     <section class="location" id="location">
       <div class="container">
-        <h2 class="location-title title">
-          Best Quality Hotels
-        </h2>
+        <h2 class="location-title title">Best Quality Hotels</h2>
 
         <p class="location-descr">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
         </p>
 
         <div class="location-rating flex">
           <ul class="location-stars flex">
             <li class="location-stars-item">
-              <button class="location-button">
-                1 Star
-              </button>
+              <button class="location-button">1 Star</button>
             </li>
 
             <li class="location-stars-item">
-              <button class="location-button">
-                2 Star
-              </button>
+              <button class="location-button">2 Star</button>
             </li>
 
             <li class="location-stars-item">
-              <button class="location-button">
-                3 Star
-              </button>
+              <button class="location-button">3 Star</button>
             </li>
 
             <li class="location-stars-item">
-              <button class="location-button">
-                4 Star
-              </button>
+              <button class="location-button">4 Star</button>
             </li>
 
             <li class="location-stars-item">
-              <button class="location-button">
-                5 Star
-              </button>
+              <button class="location-button">5 Star</button>
             </li>
           </ul>
 
-          <a class="location-link" href="#">
-            View All
-          </a>
+          <a class="location-link" href="#"> View All </a>
         </div>
 
         <ul class="location-info-list flex">
@@ -343,20 +313,17 @@
               </h3>
 
               <p class="location-info-descr">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
               </p>
 
               <div class="location-info-priceblock flex">
                 <p class="location-info-price">
-                  <span class="location-info-price-number">
-                    $250
-                  </span>
-                  /NIGHT
+                  <span class="location-info-price-number"> $250 </span>
+                  NIGHT
                 </p>
 
-                <button class="location-info-button">
-                  Details
-                </button>
+                <button class="location-info-button">Details</button>
               </div>
             </div>
           </li>
@@ -370,20 +337,17 @@
               </h3>
 
               <p class="location-info-descr">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
               </p>
 
               <div class="location-info-priceblock flex">
                 <p class="location-info-price">
-                  <span class="location-info-price-number">
-                    $250
-                  </span>
-                  /NIGHT
+                  <span class="location-info-price-number"> $250 </span>
+                  NIGHT
                 </p>
 
-                <button class="location-info-button">
-                  Details
-                </button>
+                <button class="location-info-button">Details</button>
               </div>
             </div>
           </li>
@@ -397,20 +361,17 @@
               </h3>
 
               <p class="location-info-descr">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
               </p>
 
               <div class="location-info-priceblock flex">
                 <p class="location-info-price">
-                  <span class="location-info-price-number">
-                    $250
-                  </span>
-                  /NIGHT
+                  <span class="location-info-price-number"> $250 </span>
+                  NIGHT
                 </p>
 
-                <button class="location-info-button">
-                  Details
-                </button>
+                <button class="location-info-button">Details</button>
               </div>
             </div>
           </li>
@@ -427,21 +388,22 @@
           </h2>
 
           <p class="contact-descr">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's
           </p>
 
           <form class="contact-form" action="#">
-            <fieldset class="contact-form-fieldset">
-              <input type="email" name="" id="" placeholder="Enter your email">
-              <input type="button" value="Subscribe">
+            <fieldset class="contact-form-fieldset flex">
+              <input class="contact-form-input contact-form-input-email" type="email" name="email"
+                placeholder="Enter your email">
+
+              <input class="contact-form-input contact-form-input-button" type="button" value="Subscribe">
             </fieldset>
           </form>
         </div>
       </div>
     </section>
   </main>
-
 
   <!-- footer -->
 
@@ -452,7 +414,8 @@
           <img class="footer-logo" src="../img/09_footer/logo-footer.svg" alt="logo">
 
           <p class="first-item-descr">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
           </p>
 
           <div class="first-item-socialnetworks flex">
@@ -465,85 +428,59 @@
         </li>
 
         <li class="footer-item footer-item-second flex">
-          <h2 class="footer-title">
-            Home
-          </h2>
+          <h2 class="footer-title">Home</h2>
 
           <ul class="footer-seconditem-list">
             <li class="footer-nav-item">
-              <a class="footer-link" href="#booking">
-                Booking
-              </a>
+              <a class="footer-link" href="#booking"> Booking </a>
             </li>
 
             <li class="footer-nav-item">
-              <a class="footer-link" href="#facilities">
-                Facilities
-              </a>
+              <a class="footer-link" href="#facilities"> Facilities </a>
             </li>
 
             <li class="footer-nav-item">
-              <a class="footer-link" href="#locations">
-                Location
-              </a>
+              <a class="footer-link" href="#locations"> Location </a>
             </li>
 
             <li class="footer-nav-item">
-              <a class="footer-link" href="#contact">
-                Contact
-              </a>
+              <a class="footer-link" href="#contact"> Contact </a>
             </li>
           </ul>
         </li>
 
         <li class="footer-item footer-item-third flex">
-          <h2 class="footer-title">
-            Help
-          </h2>
+          <h2 class="footer-title">Help</h2>
 
           <ul class="footer-thirditem-list">
             <li class="footer-nav-item">
-              <a class="footer-link" href="#aboutus">
-                About Us
-              </a>
+              <a class="footer-link" href="#aboutus"> About Us </a>
             </li>
 
             <li class="footer-nav-item">
-              <a class="footer-link" href="#">
-                Help center
-              </a>
+              <a class="footer-link" href="#"> Help center </a>
             </li>
 
             <li class="footer-nav-item">
-              <a class="footer-link" href="#">
-                Privacy policy
-              </a>
+              <a class="footer-link" href="#"> Privacy policy </a>
             </li>
 
             <li class="footer-nav-item">
-              <a class="footer-link" href="#">
-                FAQs
-              </a>
+              <a class="footer-link" href="#"> FAQs </a>
             </li>
           </ul>
         </li>
 
         <li class="footer-item footer-item-fourth flex">
-          <h2 class="footer-title">
-            Get the app
-          </h2>
+          <h2 class="footer-title">Get the app</h2>
 
           <ul class="footer-fourth-list">
             <li class="footer-nav-item">
-              <a class="footer-link" href="">
-                iOS App
-              </a>
+              <a class="footer-link" href=""> iOS App </a>
             </li>
 
             <li class="footer-nav-item">
-              <a class="footer-link" href="">
-                Android App
-              </a>
+              <a class="footer-link" href=""> Android App </a>
             </li>
           </ul>
         </li>
